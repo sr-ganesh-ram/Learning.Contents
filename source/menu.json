@@ -62,7 +62,7 @@
   {
     "Parent": {
       "Title": "Azure",
-      "Icon": "Azure",
+      "Icon": "material-symbols-outlined/bungalow",
       "Url": "azure",
       "Children": [
         {
@@ -71,9 +71,9 @@
           "Url": "azure/_topics",
           "Children": [
             {
-              "Title": "Azure Stream Analytics Real Time Personalized Promotions",
+              "Title": "Real Time Analysis",
               "Icon": "material-symbols-outlined/trail_length_medium",
-              "Url": "azure/_topics/azure-stream-analytics-real-time-personalized-promotions",
+              "Url": "azure/_topics/real-time-analysis",
               "Children": []
             }
           ]

@@ -93,3 +93,5 @@ graph TD
 
 ## Summary
 Amazon Kinesis Data Streams provides a scalable, low-latency solution for real-time data processing, enabling businesses like retail to deliver personalized experiences and optimize operations. By combining Kinesis with Lambda, S3, and CloudWatch, this architecture ensures secure, cost-effective, and actionable insights with minimal infrastructure overhead. 🚀[](https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html)
+
+[AWS Services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/security-services.html)
