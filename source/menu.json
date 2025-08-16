@@ -71,9 +71,9 @@
           "Url": "azure/ai-machine-learning",
           "Children": [
             {
-              "Title": "Bonsai",
+              "Title": "Ai Bonsai",
               "Icon": "material-symbols-outlined/trail_length_medium",
-              "Url": "azure/ai-machine-learning/bonsai",
+              "Url": "azure/ai-machine-learning/ai-bonsai",
               "Children": []
             }
           ]
