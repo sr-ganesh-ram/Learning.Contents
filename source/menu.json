@@ -66,6 +66,19 @@
       "Url": "azure",
       "Children": [
         {
+          "Title": "Ai \u002B Machine Learning",
+          "Icon": "material-symbols-outlined/trail_length_medium",
+          "Url": "azure/ai \u002B machine learning",
+          "Children": [
+            {
+              "Title": "Bonsai",
+              "Icon": "material-symbols-outlined/trail_length_medium",
+              "Url": "azure/ai \u002B machine learning/bonsai",
+              "Children": []
+            }
+          ]
+        },
+        {
           "Title": " Topics",
           "Icon": "material-symbols-outlined/trail_length_medium",
           "Url": "azure/_topics",
