@@ -1,4 +1,4 @@
-![SQS](../../../img/aws/Arch_App-Integration/64/Arch_Amazon-Simple-Notification-Service_64.svg)
+![SQS](https://raw.githubusercontent.com/sr-ganesh-ram/Learning.Contents/main/img/aws/Arch_App-Integration/64/Arch_Amazon-Simple-Notification-Service_64.svg)
 
 # 📈 Aws SQS
 

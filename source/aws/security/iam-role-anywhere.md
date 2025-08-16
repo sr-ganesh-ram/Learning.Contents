@@ -1,5 +1,5 @@
 
-![IAM Role Anywhere](../../../img/aws/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64.svg)
+![IAM Role Anywhere](https://raw.githubusercontent.com/sr-ganesh-ram/Learning.Contents/main/img/aws/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64.svg)
 
 # 🔒<font color="#757575">IAM Role Anywhere</font>
 

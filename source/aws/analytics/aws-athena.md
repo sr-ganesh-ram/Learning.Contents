@@ -1,7 +1,7 @@
 
 # Athena
 
-![Athena](../../../img/aws/Arch_Analytics/64/Arch_Amazon-Athena_64.png)
+![Athena](https://raw.githubusercontent.com/sr-ganesh-ram/Learning.Contents/main/img/aws/Arch_Analytics/64/Arch_Amazon-Athena_64.png)
 
 ### 1\. Overview
 

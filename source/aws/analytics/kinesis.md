@@ -1,6 +1,6 @@
 # 🛠️ Amazon Kinesis 
 
-![Kinesis](../../../img/aws/Arch_Analytics/64/Arch_Amazon-Kinesis-Data-Streams_64.svg)
+![Kinesis](https://raw.githubusercontent.com/sr-ganesh-ram/Learning.Contents/main/img/aws/Arch_Analytics/64/Arch_Amazon-Kinesis-Data-Streams_64.svg)
 
 ## Title: Real-Time Data Streaming with Amazon Kinesis Data Streams
 
