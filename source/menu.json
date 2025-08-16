@@ -49,6 +49,34 @@
               "Children": []
             }
           ]
+        },
+        {
+          "Title": " Topics",
+          "Icon": "material-symbols-outlined/trail_length_medium",
+          "Url": "aws/_topics",
+          "Children": []
+        }
+      ]
+    }
+  },
+  {
+    "Parent": {
+      "Title": "Azure",
+      "Icon": "Azure",
+      "Url": "azure",
+      "Children": [
+        {
+          "Title": " Topics",
+          "Icon": "material-symbols-outlined/trail_length_medium",
+          "Url": "azure/_topics",
+          "Children": [
+            {
+              "Title": "Azure Stream Analytics Real Time Personalized Promotions",
+              "Icon": "material-symbols-outlined/trail_length_medium",
+              "Url": "azure/_topics/azure-stream-analytics-real-time-personalized-promotions",
+              "Children": []
+            }
+          ]
         }
       ]
     }
