@@ -52,7 +52,7 @@
         },
         {
           "Title": " Topics",
-          "Icon": "material-symbols-outlined/trail_length_medium",
+          "Icon": "material-symbols-outlined/cloud_queue",
           "Url": "aws/_topics",
           "Children": []
         }
@@ -67,7 +67,7 @@
       "Children": [
         {
           "Title": "Ai \u002B Machine Learning",
-          "Icon": "material-symbols-outlined/network_intel_node",
+          "Icon": "material-symbols-outlined/psychology",
           "Url": "azure/ai \u002B machine learning",
           "Children": [
             {
@@ -80,7 +80,7 @@
         },
         {
           "Title": " Topics",
-          "Icon": "material-symbols-outlined/trail_length_medium",
+          "Icon": "material-symbols-outlined/cloud_queue",
           "Url": "azure/_topics",
           "Children": [
             {
