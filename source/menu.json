@@ -75,12 +75,6 @@
               "Icon": "material-symbols-outlined/trail_length_medium",
               "Url": "azure/_topics/real-time-analysis",
               "Children": []
-            },
-            {
-              "Title": "\uD83E\uDEA2Emoji Test",
-              "Icon": "material-symbols-outlined/trail_length_medium",
-              "Url": "azure/_topics/\uD83E\uDEA2emoji-test",
-              "Children": []
             }
           ]
         }
