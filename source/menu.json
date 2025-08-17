@@ -43,6 +43,12 @@
           "Url": "aws/database",
           "Children": [
             {
+              "Title": "Memory Db Q",
+              "Icon": "material-symbols-outlined/trail_length_medium",
+              "Url": "aws/database/memory-db-q",
+              "Children": []
+            },
+            {
               "Title": "Memory Db",
               "Icon": "material-symbols-outlined/trail_length_medium",
               "Url": "aws/database/memory-db",
