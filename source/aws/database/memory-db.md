@@ -1,5 +1,7 @@
 # Amazon Memory DB
-
+`Last Date`: `Aug-14-2025`
+<br/>
+<br/>
 ![MemoryDB](https://raw.githubusercontent.com/sr-ganesh-ram/Learning.Contents/main/img/aws/Arch_Database/64/Arch_Amazon-MemoryDB-for-Redis_64.svg)
 
 ### **1. Overview**
@@ -236,5 +238,4 @@ Amazon MemoryDB for Redis is a groundbreaking service that combines the speed of
   - [Redis Documentation](https://redis.io/docs/)
   - [Using MemoryDB to build real-time applications for performance and durability](https://www.youtube.com/watch?v=-3ATFRburMc)
 
-You can learn more about building real-time applications with MemoryDB in this video from AWS.
-http://googleusercontent.com/youtube_content/0
+
