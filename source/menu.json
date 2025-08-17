@@ -38,6 +38,19 @@
           ]
         },
         {
+          "Title": "Database",
+          "Icon": "material-symbols-outlined/database",
+          "Url": "aws/database",
+          "Children": [
+            {
+              "Title": "Memory Db",
+              "Icon": "material-symbols-outlined/trail_length_medium",
+              "Url": "aws/database/memory-db",
+              "Children": []
+            }
+          ]
+        },
+        {
           "Title": "Security",
           "Icon": "material-symbols-outlined/security",
           "Url": "aws/security",
