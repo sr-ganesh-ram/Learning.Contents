@@ -88,6 +88,12 @@
               "Icon": "material-symbols-outlined/trail_length_medium",
               "Url": "azure/ai-machine-learning/ai-bonsai",
               "Children": []
+            },
+            {
+              "Title": "Object Understanding",
+              "Icon": "material-symbols-outlined/trail_length_medium",
+              "Url": "azure/ai-machine-learning/object-understanding",
+              "Children": []
             }
           ]
         },
