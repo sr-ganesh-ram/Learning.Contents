@@ -38,6 +38,19 @@
           ]
         },
         {
+          "Title": "Containers",
+          "Icon": "material-symbols-outlined/view_in_ar",
+          "Url": "aws/containers",
+          "Children": [
+            {
+              "Title": "Ecs Anywhere",
+              "Icon": "material-symbols-outlined/trail_length_medium",
+              "Url": "aws/containers/ecs-anywhere",
+              "Children": []
+            }
+          ]
+        },
+        {
           "Title": "Database",
           "Icon": "material-symbols-outlined/database",
           "Url": "aws/database",
