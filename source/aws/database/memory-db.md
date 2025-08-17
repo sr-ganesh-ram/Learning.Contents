@@ -1,5 +1,5 @@
 # Amazon Memory DB
-`Last Date`: `Aug-14-2025`
+`Last Date : Aug-14-2025`
 <br/>
 <br/>
 ![MemoryDB](https://raw.githubusercontent.com/sr-ganesh-ram/Learning.Contents/main/img/aws/Arch_Database/64/Arch_Amazon-MemoryDB-for-Redis_64.svg)
