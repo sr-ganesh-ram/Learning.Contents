@@ -1,21 +1,6 @@
 [
   {
     "Parent": {
-      "Title": ".Net",
-      "Icon": "material-symbols-outlined/frame_source",
-      "Url": ".net",
-      "Children": [
-        {
-          "Title": "Dependency Injection",
-          "Icon": "material-symbols-outlined/trail_length_medium",
-          "Url": ".net/dependency-injection",
-          "Children": []
-        }
-      ]
-    }
-  },
-  {
-    "Parent": {
       "Title": "Aws",
       "Icon": "material-symbols-outlined/cloud",
       "Url": "aws",
@@ -143,6 +128,21 @@
               "Children": []
             }
           ]
+        }
+      ]
+    }
+  },
+  {
+    "Parent": {
+      "Title": "Dot Net",
+      "Icon": "material-symbols-outlined/frame_source",
+      "Url": "dot-net",
+      "Children": [
+        {
+          "Title": "Dependency Injection",
+          "Icon": "material-symbols-outlined/trail_length_medium",
+          "Url": "dot-net/dependency-injection",
+          "Children": []
         }
       ]
     }
