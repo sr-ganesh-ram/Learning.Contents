@@ -10,6 +10,7 @@
 📖 What is Dependency Injection? 📖
 
 Dependency Injection is a software design pattern that implements Inversion of Control (IoC). In simple terms, instead of a class creating its own dependencies (like instantiating objects it needs), those dependencies are provided ("injected") from an external source, typically a container. In .NET, this is handled by a built-in service container via the `IServiceProvider` interface. DI promotes loose coupling by abstracting dependencies through interfaces or base classes, making your code more modular.
+<br/>
 
 💡 Why Use Dependency Injection? 💡
 
@@ -24,7 +25,8 @@ Without DI, code can become rigid and hard to maintain, leading to "spaghetti co
 
 🛠️ How to Implement Dependency Injection? 🛠️
 
-Implementing DI in .NET involves three core steps: registering services, resolving them, and managing their lifetimes. .NET provides a simple, built-in container—no third-party libraries needed (though you can use them).
+> Implementing DI in .NET involves three core steps: registering services, resolving them, and managing their lifetimes. .NET provides a simple, built-in container—no third-party libraries needed (though you can use them).
+<br/>
 
 1. **Registration**: Add services to an `IServiceCollection` during app startup, often in `Program.cs`. Use methods like `AddSingleton<T>`, `AddScoped<T>`, or `AddTransient<T>`.
    - Example: `builder.Services.AddSingleton<IMessageWriter, MessageWriter>();`
@@ -46,9 +48,7 @@ Implementing DI in .NET involves three core steps: registering services, resolvi
 
 In console apps or background services, use `IServiceScopeFactory` to create scopes manually.
 
-✅ Best Practices for Dependency Injection ✅
-
-To avoid common pitfalls:
+✅ Best Practices for Dependency Injection, To avoid common pitfalls:
 - Always abstract dependencies with interfaces for flexibility.
 - Avoid injecting scoped services into singletons directly—use factories to prevent "captive dependencies."
 - Handle constructor overloads carefully; ensure only one is injectable.
@@ -62,6 +62,7 @@ These practices ensure your app is robust, especially in multi-threaded or web e
 💻 Examples of Dependency Injection 💻
 
 Here's a simple example of a message writer service:
+<br/>
 
 ```csharp
 // Interface
@@ -85,6 +86,7 @@ public class MyService(IMessageWriter writer)
     public void Log() => writer.Write("Hello, DI!");
 }
 ```
+<br/>
 
 For integration with logging (chained DI):
 
@@ -94,16 +96,19 @@ public class LoggingMessageWriter(ILogger<LoggingMessageWriter> logger) : IMessa
     public void Write(string message) => logger.LogInformation(message);
 }
 ```
+<br/>
 
-In ASP.NET Core, framework services like `ILogger<T>` are auto-registered.
+> In ASP.NET Core, framework services like `ILogger<T>` are auto-registered.
+<br/>
 
-🌐 Integration with ASP.NET Core 🌐
+🌐 Integration with ASP.NET Core:
 
 ASP.NET Core has first-class DI support. Services are registered in `Program.cs` using the host builder. Framework services (e.g., `IHostingEnvironment`, `IOptions<T>`) are pre-registered. For web apps, scoped services align with HTTP requests, making it perfect for Entity Framework Core DbContexts. Example: `builder.Services.AddDbContext<MyDbContext>(options => ...);` registers it as scoped by default.
-
+<br/>
 🔍 Mermaid Diagram: Dependency Injection Flow 🔍
 
 To visualize how DI works in .NET, here's a Mermaid sequence diagram showing registration, resolution, and usage:
+<br/>
 
 ```mermaid
 sequenceDiagram
@@ -121,7 +126,12 @@ sequenceDiagram
 
     DependentClass->>Dependency: Use Injected Service (e.g., Write())
 ```
+<br/>
 
 This diagram illustrates the flow from startup to runtime usage, highlighting the container's role.
 
-This topic is a great starting point for refreshing .NET skills—mastering DI will enhance your ability to architect clean, enterprise-level applications. If you'd like to dive into another topic like async programming or Entity Framework, let me know! 🚀
+This topic is a great starting point for refreshing .NET skills—mastering DI will enhance your ability to architect clean, enterprise-level applications.
+
+<br/>
+
+------
