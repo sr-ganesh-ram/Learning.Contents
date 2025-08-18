@@ -6,9 +6,9 @@
       "Url": ".net",
       "Children": [
         {
-          "Title": "Dependency Injection ",
+          "Title": "Dependency Injection",
           "Icon": "material-symbols-outlined/trail_length_medium",
-          "Url": ".net/dependency-injection ",
+          "Url": ".net/dependency-injection",
           "Children": []
         }
       ]
