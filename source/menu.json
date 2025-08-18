@@ -2,13 +2,13 @@
   {
     "Parent": {
       "Title": ".Net",
-      "Icon": "material-symbols-outlined/cloud_queue",
+      "Icon": "material-symbols-outlined/frame_source",
       "Url": ".net",
       "Children": [
         {
-          "Title": "\uD83D\uDE80 Dependency Injection ",
+          "Title": "Dependency Injection ",
           "Icon": "material-symbols-outlined/trail_length_medium",
-          "Url": ".net/\uD83D\uDE80 dependency injection ",
+          "Url": ".net/dependency-injection ",
           "Children": []
         }
       ]
@@ -99,7 +99,7 @@
         },
         {
           "Title": " Topics",
-          "Icon": "material-symbols-outlined/cloud_queue",
+          "Icon": "material-symbols-outlined/amp_stories",
           "Url": "aws/_topics",
           "Children": []
         }
@@ -133,7 +133,7 @@
         },
         {
           "Title": " Topics",
-          "Icon": "material-symbols-outlined/cloud_queue",
+          "Icon": "material-symbols-outlined/amp_stories",
           "Url": "azure/_topics",
           "Children": [
             {
